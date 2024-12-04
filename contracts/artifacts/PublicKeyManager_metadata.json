@@ -1,0 +1,97 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "publicKey",
+						"type": "string"
+					}
+				],
+				"name": "PublicKeyAdded",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_publicKey",
+						"type": "string"
+					}
+				],
+				"name": "addPublicKey",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					}
+				],
+				"name": "getPublicKey",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/PublicKeyManager.sol": "PublicKeyManager"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 500
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/PublicKeyManager.sol": {
+			"keccak256": "0xcf0f817b2a62e07ac64221494be9d29e9b14a5f027993c84fc70f62583406751",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f2c03c85dc46f85f7e7b25448c7e4fc8e3e12049a3b9bf2d02bb1d691c9e0549",
+				"dweb:/ipfs/QmSM7YkfAsdc4G4qGuqaM1bss1VfsJV2psfHiNHw2gE7nD"
+			]
+		}
+	},
+	"version": 1
+}
